@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+*{
+    
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500,800;
+    font-style: normal;
+}    
+
+body{
+    background-color: black;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    
+}
+.main img{ 
+  height:80px;
+  width:80px;
+  text-align: center;
+  margin-bottom: 15px;
+  border-radius:50%;
+  display: block;
+  margin-inline: auto;
+  padding:10px;
+  }
+.main{
+  background-color:hsl(0, 0%, 8%);
+  width:max-content;
+  padding: 20px;
+  border-radius: 20px;
+  border: 50%;
+ 
+  }
+  
+  .main h1{
+    font-size:20px;
+    color:hsl(0, 0%, 100%);
+    text-align: center;
+  }
+.main h1 span{
+    color:hsl(75, 94%, 57%);
+    display: block;
+    font-size:1rem;
+    padding:10px;
+    margin:0.5rem 0 1rem;
+    /*width:  max-content;
+    align-content: center;*/
+
+}
+.main p{
+  color:#fff;
+  text-align: center;
+ 
+}
+.main ul{
+  display: grid;
+  gap:0.5rem;
+  margin-top: 2rem;
+}
+.main ul li button{
+    background-color: hsl(0,0%,18%);
+    color:white;
+    font-size: 1rem;
+    font-weight: bold;
+    width: 20vw;
+    padding:20px;
+    border:none;
+    border-radius:8px;
+    outline:none;
+    justify-content: center;
+    align-items: center;
+}
+.main ul li button:hover{
+  background-color:hsl(75, 94%, 57%); ;
+  color:hsl(0, 0%, 8%);
+}
+ul{
+justify-content: center;
+align-items: center;
+}

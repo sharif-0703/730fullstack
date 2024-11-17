@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0px;
+    margin:0px;
+    scroll-behavior: smooth;
+    scrollbar-color: var(--primary-color);
+}
+body{
+  font-family: "Barlow Semi Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  --primary-color:rgb(206, 226, 245);
+}
+header{
+    background-color: rgb(41, 39, 39);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+.pic{
+    font-size: 42px;
+}
+.pic span{
+    color: var(--primary-color);
+}
+.menu ul{
+    display: flex;
+    gap: 20px;
+
+    list-style:none;
+  }
+  .main h1{
+    padding:20px;
+  }
+  a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+  }
+  #banner{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+#banner-context{
+display: flex;
+background-image:url("./coffee.avif");
+padding:10px;
+color: aliceblue;
+background-size:cover;
+width:210vh;
+height:110vh;
+}
+#banner-context:hover{
+    background-image:url('./cafe.jpg');
+    transition-duration:2s;
+    padding:10px;
+}
+#banner h1{
+    font-size: 5rem;
+}
+ 
+#banner-context .hi
+{
+    
+    background-color:burlywood;
+    color:white;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration:none;
+}
+#banner-context .hlo
+{
+    background-color:black;
+    color:black;
+    padding:15px;
+    border:2px solid black;
+    border-radius: 10px;
+    text-decoration:none;
+}
+.brief{
+    justify-content: center;
+    
+    text-align: center;
+    padding: 20px;
+    background-color: blanchedalmond;
+}
+.brief img{
+    float: right;
+    width:18%;
+}
+.img{
+    position: absolute;
+    width:80%;
+}
+.main{
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(244, 216, 174);
+}
+.main img:hover{
+     transform: scale(1.3); 
+     box shadow: 1px;  
+    }
+.main img{
+    display: inline-block;
+    height:30vh;
+    width:30vh;
+    padding:20px;
+    box-shadow: 2px 2px white;
+}
+.us{
+    justify-content: center;
+    text-align: center;
+    background-color:rgb(212, 192, 161);
+    padding:10px;
+}
+.us h2{
+    padding:10px;
+}
+.us label{
+    border-radius:10px;
+    text-align: center;
+    display:inline;
+    margin-inline:auto;
+}
+.us{
+    text-align: center;
+    margin:10px;
+    padding: auto;
+}

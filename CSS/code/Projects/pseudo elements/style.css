@@ -1,0 +1,33 @@
+div>p{
+    background-color: black;
+}
+div p{
+    background-color: red;
+}
+div+p{
+    background-color: green;
+}
+input[type="text"]{
+    height: 30px;
+    width:200px;
+}
+input::placeholder{
+    font-size: 18px;
+    color:black;
+}
+div p::first-letter{
+    font-size: 68px;
+}
+.child{
+    height: 50px;
+    width:50px;
+    background-color: antiquewhite;
+    color:blue;
+}
+.parent>div:nth-last-of-type(1)
+{
+    background-color: black;
+}
+.parent>.child:not(p){
+    width:200px;
+}
